@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #E5E5E5;
+}
+.main-container {
+    background-image: url(BG.svg);
+    background-repeat: no repeat;
+    background-color: #2148C0;
+    width: 1280px;
+    height: 600px;
+    margin-left: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.content-container {
+    width: 303px;
+    height: 100%;
+    margin-left: 420px;   
+}
+form{
+    width: 300px;
+    height: 400px;
+    margin-top: 160px;
+    color: white;
+ }
+.img{
+    margin-left: 80px;}
+.input {
+    margin: 20px 0;
+    width: 300px;
+    padding: 0;
+    text-transform: uppercase;
+    
+}
+.user-container {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 40px;
+    width: 300px;
+    background-image: url(user.SVG);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius:5px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    
+}
+.password-container {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 40px;
+    width: 300px;
+    background-image: url(LOCK.SVG);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.btn {
+    width: 300px;
+    height: 45px;
+    color: blue;
+    font-size: 16px;
+    font-style: semi-bold;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+}.btn:hover{
+background-color: #ffffffc2;
+color: blue;
+border-radius: 5px;
+box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 6px 12px -3px rgba(0,0,0,0.75);
+}
+.link {
+    /* margin-top: 5px;
+    width: 155px; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: right;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+    
+ 
+
+ 
